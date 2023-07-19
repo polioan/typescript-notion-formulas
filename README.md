@@ -1,4 +1,7 @@
 # typescript notion formulas
+[![version](https://img.shields.io/npm/v/typescript-notion-formulas.svg)](https://www.npmjs.com/package/typescript-notion-formulas)
+[![license](https://img.shields.io/github/license/polioan/typescript-notion-formulas)](https://opensource.org/licenses/MIT)
+[![created by Ivan Polushin](https://img.shields.io/badge/created%20by-@polioan-4BBAAB.svg)](https://github.com/polioan)
 
 Tool for creating notion table formulas with typescript!
 
@@ -23,6 +26,15 @@ npm i typescript-notion-formulas
 
 ```shell
 yarn add typescript-notion-formulas
+```
+
+#### CDN
+
+```html
+<script src="https://unpkg.com/typescript-notion-formulas@1.0.0/dist/index.global.js"></script>
+<script>
+  const { build } = formulas // adds global "formulas" namespace
+</script>
 ```
 
 ### Basic usage
