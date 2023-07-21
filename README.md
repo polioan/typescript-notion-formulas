@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/polioan/typescript-notion-formulas)](https://opensource.org/licenses/MIT)
 [![created by Ivan Polushin](https://img.shields.io/badge/created%20by-@polioan-4BBAAB.svg)](https://github.com/polioan)
 
-Tool for creating notion table formulas with typescript!
+Tool for creating notion table formulas with TypeScript!
 
 ## Motivations
 
