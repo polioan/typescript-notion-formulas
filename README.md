@@ -1,4 +1,4 @@
-# typescript notion formulas
+﻿# typescript notion formulas
 [![version](https://img.shields.io/npm/v/typescript-notion-formulas.svg)](https://www.npmjs.com/package/typescript-notion-formulas)
 [![license](https://img.shields.io/github/license/polioan/typescript-notion-formulas)](https://opensource.org/licenses/MIT)
 [![created by Ivan Polushin](https://img.shields.io/badge/created%20by-@polioan-4BBAAB.svg)](https://github.com/polioan)
