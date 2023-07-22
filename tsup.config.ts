@@ -6,6 +6,7 @@ const common: Options = {
   outDir: 'dist',
   sourcemap: false,
   minify: true,
+  replaceNodeEnv: true,
 }
 
 function getBuildMode(): Options {
