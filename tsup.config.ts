@@ -2,7 +2,7 @@ import { defineConfig, type Options } from 'tsup'
 
 const common: Options = {
   entry: ['src/index.ts'],
-  tsconfig: 'tsconfig.build.json',
+  tsconfig: 'tsconfig.json',
   outDir: 'dist',
   sourcemap: false,
   minify: true,

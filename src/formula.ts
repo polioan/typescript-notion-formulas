@@ -56,7 +56,7 @@ export class Formula<TProps extends FormulaProps> {
   public prop<T extends keyof TProps>(propName: T): Prop<TProps[T]> {
     const type = this.props[propName]
     return new Prop({
-      type: typeof type !== 'string' ? (undefined as any) : type,
+      type: typeof type === 'string' ? type : (undefined as any),
       name: 'prop',
       children: [String(propName)],
     })

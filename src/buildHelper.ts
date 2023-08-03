@@ -40,15 +40,13 @@ export function build<T extends FormulaProps | undefined = undefined>(
      *
      * Note that notion is sensitive to special characters and with larger formulas it will be hard to copy from console! You can use something like clipboardy to copy the results.
      */
-    formula: (
-      formulaCallback: (f: typeof newFormula) => AnyPropOrAnyPropLike
-    ) => {
+    formula(formulaCallback: (f: typeof newFormula) => AnyPropOrAnyPropLike) {
       try {
         return builder.toString(formulaCallback(newFormula))
       } catch (e) {
         if (
           typeof e === 'object' &&
-          e !== null &&
+          e != null &&
           'message' in e &&
           typeof e.message === 'string'
         ) {
