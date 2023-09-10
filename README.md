@@ -5,6 +5,18 @@
 
 Tool for creating notion table formulas with TypeScript!
 
+## Warning
+
+Notion has released new formulas 2.0!
+
+They added variables, more property types and multi-line formulas (with tabs and comments too!)
+
+[Whats changed](https://www.notion.so/help/guides/new-formulas-whats-changed)
+
+[Syntax](https://www.notion.so/help/formula-syntax)
+
+So I guess you don't need this tool anymore. Maybe in the future I can transform it to DSL to write formulas in any table like environment (Excel for example)
+
 ## Motivations
 
 1. **Readability and maintainability**: Lengthy formulas are hard to read and maintain, leading to confusion and potential errors.
